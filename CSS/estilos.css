@@ -1,0 +1,592 @@
+
+
+body{
+  font-family:Dancing Script;
+  background-color: #02010a;
+
+
+
+
+}
+
+#contenido{
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+
+/*NAVEGACION*/
+
+#mynav{
+
+
+  padding-bottom: 0;
+  margin-top: 0px;
+  background-color: #5b7989;
+  text-shadow: 2px #02010a;
+  border-radius: 10px 10px 0 0;
+  color:white;
+  width: 84.4%;
+  margin: auto;
+  display: flex;
+  flex-wrap:nowrap;
+
+}
+
+header{
+  text-align: center;
+  width:100%;
+  min-height:100px;
+  display:flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin: auto;
+
+
+}
+
+#titulo{
+  text-shadow: 2px 2px #02010a;
+  width:70%;
+  text-align:left;
+  font-size: 1.5em;
+
+}
+
+#titulo h1{
+  padding:50px;
+}
+
+
+#menu{
+  word-spacing: 7px;
+  padding-top:88px;
+  text-align:center;
+  width: 30%;
+
+
+}
+
+#menu2{
+  word-spacing: 7px;
+  padding-top:88px;
+  text-align: center;
+  width:30%;
+
+}
+
+#menu3{
+  word-spacing: 7px;
+  padding-top:88px;
+  text-align:center;
+  width: 30%;
+
+
+
+}
+
+#menu a{
+
+  color: white;
+  font-size: 1.5em;
+  padding-top: 60px;
+
+}
+
+
+
+#menu2 a{
+
+  color: white;
+  font-size: 1.5em;
+  padding-top: 60px;
+  text-decoration: none;
+}
+#menu3 a{
+
+  color: white;
+  font-size: 1.5em;
+  padding-top: 60px;
+  text-decoration: none;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+/*EMPIEZAN LAS IMAGENES*/
+
+/*imagen1*/
+#contenedor{
+background-color: #82c3a6;
+text-align: center;
+
+width: 84.4%;
+margin: auto;
+
+
+}
+
+.foto1{
+  padding: 15px;
+}
+.imagen1{
+  padding-top:15px;
+  padding-bottom: 15px;
+  box-shadow: 2px 5px 10px 0 #02010a;
+  padding: 0;
+}
+
+
+/*IMAGEN2 y 3*/
+
+#contenedor2{
+  background-color: #d5c75f;
+  width: 84.4%;
+  text-align: center;
+  display:flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.caja2paisaje{
+  width: 40%;
+}
+
+.caja3retrato{
+  width: 40%;
+}
+.caja2paisaje, .caja3retrato{
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+  text-decoration: underline;
+}
+
+
+/*.....EFECTOS.....*/
+
+/*IMAGEN2 NAME= IMAGEN2*/
+
+.imagen2:hover{
+  transform: rotate(10deg);
+  box-shadow: 3px 5px 10px 0 #82c3a6;
+  border: 2px solid black;
+}
+
+/*IMAGEN3 NAME=RETRATOS1*/
+
+.retratos1:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 3px 5px 10px 0 #82c3a6;
+  border: 2px solid black;
+}
+
+/*......SOMBRAS DE LAS IMAGENES SEGUNDO RECUADRO.....*/
+
+.imagen2{
+  box-shadow: 2px 5px 10px 0 #02010a;
+}
+
+.retratos1{
+  box-shadow: 2px 5px 10px 0 #02010a;
+}
+
+
+/*...........FOOTER..........*/
+
+/*...CAJA FOOTER...*/
+
+.footer{
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  width: 84.4%;
+  margin: auto;
+  display:flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  font-size: 1em;
+
+
+}
+
+
+#contacto {
+padding: 15px;
+padding-left: 30px;
+padding-right: 20px;
+margin: 0 auto;
+}
+
+#Terminos{
+  padding: 15px;
+  margin:0 auto;
+}
+
+#redessociales{
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+
+#derechos{
+  padding: 15px;
+  padding-left: 10px;
+  margin:0 auto;
+}
+
+.titulo2{
+  font-size: 2em;
+}
+
+
+
+/*........PAISAJES . HTML ...........*/
+
+/*....text decoration underlinde nav.....*/
+
+#menu [href^="html/paisajes.html"], [href^="html/retratos.html"] {
+  text-decoration: underline;
+}
+
+#menu2 a[href^="../index.html"] {
+  text-decoration: underline;
+}
+#menu2 a[href^="retratos.html"]{
+  text-decoration: underline;
+}
+
+#menu3 a[href^="../index.html"]{
+  text-decoration: underline;
+}
+#menu3 a[href^="paisajes.html"] {
+  text-decoration: underline;
+}
+/*....................................*/
+
+.columnas{
+  text-align: center;
+  width: 84.4%;
+  margin: auto;
+  display:flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  background-color: #d5c75f;
+
+
+}
+/*...COLUMNAS DE PAISAJE...*/
+#paisaje1{
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+}
+#paisaje2{
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+}
+ #paisaje3{
+   margin: auto;
+   padding: 10px;
+   width: 30%;
+ }
+ #paisaje4{
+   margin: auto;
+   padding: 10px;
+   width: 30%;
+ }
+ #paisaje5{
+   margin: auto;
+   padding: 10px;
+   width: 30%;
+ }
+#paisaje6{
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+}
+/*.................................*/
+/*...COLUMNAS DE RETRATO...*/
+#retrato1{
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+}
+#retrato2{
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+}
+ #retrato3{
+   margin: auto;
+   padding: 10px;
+   width: 30%;
+ }
+ #retrato4{
+   margin: auto;
+   padding: 10px;
+   width: 30%;
+ }
+ #retrato5{
+   margin: auto;
+   padding: 10px;
+   width: 30%;
+ }
+#retrato6{
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+}
+
+/*.....SOMBRAS EN RETRATO Y PAISAJE.....*/
+
+
+.paisaje1{
+  box-shadow: 2px 5px 10px 0 #02010a;
+
+}
+.paisaje2{
+  box-shadow: 2px 5px 10px 0 #02010a;
+}
+ .paisaje3{
+  box-shadow: 2px 5px 10px 0 #02010a;
+ }
+ .paisaje4{
+   box-shadow: 2px 5px 10px 0 #02010a;
+ }
+ .paisaje5{
+   box-shadow: 2px 5px 10px 0 #02010a;
+ }
+.paisaje6{
+  box-shadow: 2px 5px 10px 0 #02010a;
+}
+/*.................................*/
+
+.retrato1{
+box-shadow: 2px 5px 10px 0 #02010a;
+}
+.retrato2{
+box-shadow: 2px 5px 10px 0 #02010a;
+}
+ .retrato3{
+   box-shadow: 2px 5px 10px 0 #02010a;
+ }
+ .retrato4{
+   box-shadow: 2px 5px 10px 0 #02010a;
+ }
+ .retrato5{
+   box-shadow: 2px 5px 10px 0 #02010a;
+ }
+.retrato6{
+  box-shadow: 2px 5px 10px 0 #02010a;
+}
+
+
+
+/*.........................................*/
+/*EFECTOS EN LAS IMAGENES DE PAISAJES*/
+
+.paisaje1{
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+
+.paisaje2, .paisaje4, .paisaje6 {
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.paisaje3{
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+
+/*EFECTOS EN LAS IMAGENES DE RETRATOS */
+
+.retrato1{
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+
+.retrato2, .retrato4, .retrato6 {
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.retrato3{
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+
+
+/* ......... ANIMACION...........*/
+
+@keyframes animacion_slidein {
+0%{
+  position:relative;
+  margin-top: 150%;
+}
+60%{
+  position: relative;
+  margin-top: -5%;
+}
+100%{
+  position:relative;
+  margin-top:0%;
+}
+
+}
+
+body{
+  animation-name:animacion_slidein;
+  animation-duration:2s;
+  -webkit-animation-delay:1s;
+  -o-animation-delay:1s;
+  -moz-animation-delay:1s;
+  animation-delay:1s;
+}
+
+
+/*.......::MEDIA QUERIES::.......*/
+@media (max-width:900px){
+
+#contenido{
+  width: 100%;
+}
+/* ..... titulo y menu de navegacion......*/
+#mynav{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+#titulo{
+
+  text-align: center;
+  width: 100%;
+  order: 0;
+  padding-bottom: 0;
+}
+#menu{
+padding-top: 0;
+padding-bottom: 20px;
+ text-align: center;
+ order: 1;
+ width: auto;
+
+}
+
+#menu2 {
+padding-top: 0;
+padding-bottom: 20px;
+ text-align: center;
+ order: 1;
+ width: 100%;
+
+}
+
+#menu3{
+padding-top: 0;
+padding-bottom: 20px;
+ text-align: center;
+ order: 1;
+ width: 100%;
+
+}
+
+/*....:::empiezan las imagenes:::.....*/
+
+/*.....imagen 1 #contenedor......*/
+#contenedor{
+  width: auto;
+}
+/*.....imagen 2 y 3 #contenedor2......*/
+#contenedor2{
+  width: auto;
+}
+.caja2paisaje{
+  width: 100%;
+}
+.caja3retrato{
+  width: auto;
+}
+
+/*....................*/
+/*....:::footer::....*/
+.footer{
+  width: auto;
+}
+
+#contacto{
+  width: 100%;
+}
+#terminos{
+  width: 100%;
+}
+#redessociales{
+  width: 100%;
+}
+#derechos{
+  width: 100%;
+}
+
+/*......paisajes . html ......*/
+
+.columnas{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#paisaje1{
+  width: auto;
+
+}
+#paisaje2{
+  width: auto;
+}
+ #paisaje3{
+  width: auto;
+ }
+ #paisaje4{
+   width: auto;
+ }
+ #paisaje5{
+  width:auto;
+ }
+#paisaje6{
+  width: auto;
+}
+/*.........retratos . html...........*/
+
+#retrato1{
+width: auto;
+}
+#retrato2{
+width: auto;
+}
+ #retrato3{
+   width: auto;
+ }
+ #retrato4{
+  width: auto;
+ }
+ #retrato5{
+  width: auto;
+ }
+#retrato6{
+  width: auto;
+}
+
+}
+
+/*....................................*/
